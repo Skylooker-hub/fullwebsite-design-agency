@@ -20,7 +20,7 @@ export default function ScrollToTop() {
     <>
       <button
         type="button"
-        className=" fixed bottom-[60px] right-[30px] z-[100] w-8 h-8 rounded bg-primaryRed text-white flex justify-center items-center "
+        className="fixed bottom-[60px] right-[30px] z-[100] w-8 h-8 rounded bg-primaryRed text-white flex justify-center items-center"
         style={{ display: isVisible? "block" : "none" }}
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
