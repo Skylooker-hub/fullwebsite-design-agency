@@ -1,0 +1,34 @@
+name: Deploy to GitHub pages
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "src/**"
+      - "vite.config.ts"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate webapp
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.2
+
+      - run: pnpm install
+      - run: pnpm build
+
+      - name: Init new repo in dist folder and commit generated files
+        run: |
+          cd dist
+          git config --global user.email "huangchenglin1997@qq.com"
+          git config --global user.name "Skylooker"
+          git init
+          git add .
+          git commit -m 'chore: Deploy to GitHub pages'
+          git push -f https://${{github.actor}}:${{github.token}}@github.com/${{github.repository}}.git master:gh-pages
+          rm -rf .git
