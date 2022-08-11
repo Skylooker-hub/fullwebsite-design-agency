@@ -1,5 +1,7 @@
 export default {
   npmClient: "pnpm",
+  base: "/fullwebsite-design-agency/",
+  publicPath: "/fullwebsite-design-agency/",
   plugins: [require.resolve("@umijs/plugins/dist/tailwindcss")],
   alias: {
     "@": "./src",
@@ -9,5 +11,4 @@ export default {
   targets: {
     ie: 11,
   },
-  base: "/fullwebsite-design-agency"
 };
