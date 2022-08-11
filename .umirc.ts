@@ -9,4 +9,5 @@ export default {
   targets: {
     ie: 11,
   },
+  base: "/fullwebsite-design-agency"
 };
