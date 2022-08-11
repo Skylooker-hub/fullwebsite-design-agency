@@ -16,16 +16,6 @@ body {
   overflow: hidden;
 }
 
-/* html {
-  overflow: -moz-hidden-unscrollable;
-  height: 100%;
-}
-
-body::-webkit-scrollbar {
-  display: none;
-} */ /* Hide scrollbar */
-
-
 body::-webkit-scrollbar {
   width: 10px;
 }
