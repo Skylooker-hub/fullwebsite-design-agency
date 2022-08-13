@@ -1,4 +1,4 @@
-# React-Tailwind-Agency
+# Fullwebsite-Design-Agency
 
 [![Deploy to GitHub pages](https://github.com/Skylooker-hub/fullwebsite-design-agency/actions/workflows/deploy.yaml/badge.svg)](https://github.com/Skylooker-hub/fullwebsite-design-agency/actions/workflows/deploy.yaml)
 
