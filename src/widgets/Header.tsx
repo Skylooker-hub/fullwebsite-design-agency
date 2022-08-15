@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faSearch } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useSpring, animated, Spring } from "react-spring";
 import { Link } from "react-scroll";
 import { useUpdateEffect } from "ahooks";
@@ -114,7 +114,7 @@ export default function Header() {
           <Link className="mx-[24px] text-sm cursor-pointer" to="information" smooth offset={-80}>
             公司动态
           </Link>
-          <FontAwesomeIcon icon={faSearch} className="text-sm" />
+          {/* <FontAwesomeIcon icon={faSearch} className="text-sm" /> */}
         </nav>
         {/* burger */}
         <div
@@ -219,7 +219,7 @@ export default function Header() {
           >
             公司动态
           </Link>
-          <FontAwesomeIcon icon={faSearch} className="text-sm" />
+          {/* <FontAwesomeIcon icon={faSearch} className="text-sm" /> */}
         </div>
       </animated.nav>
     </>

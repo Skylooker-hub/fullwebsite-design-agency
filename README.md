@@ -14,6 +14,18 @@ pnpm build # 记得改变base, publicPath路径
 
 [umijs](https://umijs.org/)
 
+## Library
+
+[FontAwesome](https://fontawesome.com/)
+
+[TailwindCss](https://tailwindcss.com/)
+
+[React-Spring](https://react-spring.io/)
+
+[Ahooks](https://ahooks.js.org/)
+
+[ReactScroll](https://github.com/fisshy/react-scroll)
+
 ## Inspiration
 
 Inspired by the [Course](https://study.163.com/course/courseMain.htm?courseId=1209739805)
