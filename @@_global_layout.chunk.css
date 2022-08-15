@@ -1,0 +1,1 @@
+html{overflow-y:scroll}:root{overflow-y:auto;overflow-x:hidden}:root body{position:absolute}body{width:100vw;overflow:hidden}body::-webkit-scrollbar{width:10px}body::-webkit-scrollbar-thumb{background:#ccc;border-radius:5px}body::-webkit-scrollbar-thumb:hover{background:#f40}body::-webkit-scrollbar-track{border-radius:10px}
